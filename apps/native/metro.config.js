@@ -18,4 +18,13 @@ config.resolver.nodeModulesPaths = [
 // 3. Force Metro to resolve (sub)dependencies only from the `nodeModulesPaths`
 config.resolver.disableHierarchicalLookup = true;
 
+// config.transformer.getTransformOptions = async () => ({
+//   transform: {
+//     experimentalImportSupport: false,
+//     inlineRequires: false,
+//   },
+// });
+//
+// config.resolver.sourceExts = ["jsx", "js", "ts", "tsx", "mjs", "cjs", "json"];
+
 module.exports = config;
